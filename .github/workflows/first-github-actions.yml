@@ -1,0 +1,9 @@
+name: Run Shell Command
+On: [push]
+
+jobs:
+	run-shell-command:
+		runs-on: ubantu-latest
+		steps:
+			- name: Echo a String
+			run: echo ""Hello welcome  to first demo""
